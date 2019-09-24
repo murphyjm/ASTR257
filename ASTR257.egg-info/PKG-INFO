@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: ASTR257
+Version: 0.1.dev0
+Summary: ASTR257 at UCSC
+Home-page: https://github.com/askemer/astr257
+Author: Skemer & Prochaska
+Author-email: askemer@ucsc.edu
+License: BSD
+Description: # ASTR257
+        
+        Files for UCSC's Astronomy Graduate Class ASTR 257: Modern Astronomical Techniques
+        
+Platform: UNKNOWN
+Requires: Python (>3.6.0)
+Provides: ASTR257
