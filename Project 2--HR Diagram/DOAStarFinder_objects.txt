@@ -1,0 +1,12 @@
+# DAOStarFinder objects for NGC6819 B, V, Landolt B, V
+daofind_ngc6819_v = DAOStarFinder(fwhm=3.0, threshold=5.*std_v, sharplo=0.0, sharphi=0.5, roundlo=-0.2, roundhi=0.2, peakmax=5e4, exclude_border=True)
+# Sources = 369
+
+daofind = DAOStarFinder(fwhm=3.0, threshold=3.*std_v, sharplo=0.0, sharphi=.5, roundlo=-0.2, roundhi=0.2, peakmax=5e4, exclude_border=True)
+# Sources = 144
+
+daofind = DAOStarFinder(fwhm=3.0, threshold=20.*landolt_std_v, sharplo=0.0, sharphi=.75, roundlo=-0.4, roundhi=0.4, peakmax=5e4, exclude_border=True)
+# Sources = 3
+
+daofind = DAOStarFinder(fwhm=3.0, threshold=9.*landolt_std_b, sharplo=0.0, sharphi=.75, roundlo=-0.4, roundhi=0.4, peakmax=5e4, exclude_border=True)
+# Sources = 4 (remove last row)
