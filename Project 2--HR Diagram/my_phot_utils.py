@@ -13,7 +13,7 @@ rcParams['text.latex.preamble'] = [r'\usepackage{amsmath} \usepackage{bm} \usepa
 
 def find_sources(data):
     mean, median, std = sigma_clipped_stats(data, sigma=3.0) # Background statistics
-    
+
     # Adjust these params by hand/eye
     daofind = DAOStarFinder(fwhm=3.0, threshold=5.*std_v, sharplo=0.0, sharphi=0.5,
                             roundlo=-0.2, roundhi=0.2, peakmax=5e4, exclude_border=True)
