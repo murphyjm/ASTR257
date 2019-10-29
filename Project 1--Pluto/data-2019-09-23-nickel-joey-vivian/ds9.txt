@@ -1,0 +1,7 @@
+# Region file format: DS9 version 4.1
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+# compass(19:28:41.8723,-22:22:40.166,13.648") compass=fk5 {N} {E} 1 1
+circle(19:28:31.8384,-22:24:06.170,13.728")
+# ruler(19:28:33.2039,-22:24:57.314,19:28:28.0315,-22:24:55.538) ruler=fk5 arcsec
+
